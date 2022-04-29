@@ -70,11 +70,21 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "165126156807765fce": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Hello word by Roman",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "16512598967e05e354",
-    "16512614558026f3df"
+    "16512614558026f3df",
+    "165126156807765fce"
   ]
 }
