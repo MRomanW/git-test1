@@ -217,22 +217,30 @@
         "padding_bottom": 36
       }
     },
-    "16514110770b2d6917": {
+    "1651411083758ee9bf": {
       "type": "liquid-basics",
       "blocks": {
-        "f6f70f9f-b70c-4c6c-8a7c-863a68e9ab3f": {
+        "a098aecb-c022-42f8-afa3-dcbd64531575": {
           "type": "text",
           "settings": {
-            "block-text": "<p>dsds<\/p>",
+            "block-text": "<p>I happy<\/p>",
             "image": "shopify:\/\/shop_images\/knife-slices-a-zucchini-in-half.jpg"
+          }
+        },
+        "256e0a7f-7995-48db-834c-c0573e0833b9": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>The best!<\/p>",
+            "image": "shopify:\/\/shop_images\/golden-autumn-leaves.jpg"
           }
         }
       },
       "block_order": [
-        "f6f70f9f-b70c-4c6c-8a7c-863a68e9ab3f"
+        "a098aecb-c022-42f8-afa3-dcbd64531575",
+        "256e0a7f-7995-48db-834c-c0573e0833b9"
       ],
       "settings": {
-        "title": "Liquid Basics"
+        "title": "Hello my first section blocks"
       }
     }
   },
@@ -244,6 +252,6 @@
     "video",
     "multicolumn",
     "165124036117654e58",
-    "16514110770b2d6917"
+    "1651411083758ee9bf"
   ]
 }
