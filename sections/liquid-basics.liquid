@@ -20,8 +20,12 @@
 {% schema %}
   {
     "name": "Liquid Basics Example",
-    "settings": [
-	]
+    "settings": [{
+		 "type": "text",
+  		"id": "featured_product_title",
+  		"label": "Featured product title",
+ 		 "default": "Featuring: {{ product.title }}"
+}]
   }
 {% endschema %}
 
