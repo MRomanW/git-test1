@@ -3,7 +3,9 @@
     <h2> {{ section.settings.title }} </h2>
   </div>
   <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--3-col-desktop">
-  	<li class="multicolumn-list__item grid__item center">
+  	
+    
+    <li class="multicolumn-list__item grid__item center">
     	<div class"multicolumn-card content-container">
       	  <div class="multicolumn-card__info">
             <img src
@@ -14,6 +16,8 @@
           </div>
       	</div>
     </li>
+
+	
   </ul>
 </div>
 
@@ -24,7 +28,7 @@
 		"type": "text",
   		"id": "title",
   		"label": "Title",
- 		"default": "Liquid Basics "
+ 		"default": "Liquid Basics"
 	}],
 	"blocks": [{
 		"type": "text",
@@ -34,6 +38,11 @@
 		"type": "richtext",
 		"id": "block-text",
 		"label": "Block Text"
+	},
+	{
+		"type": "image_picker",
+		"id": "image",
+		"label": "Pick an image"
 	}
 ]
   		
