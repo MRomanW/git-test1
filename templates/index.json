@@ -216,6 +216,24 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "16514110770b2d6917": {
+      "type": "liquid-basics",
+      "blocks": {
+        "f6f70f9f-b70c-4c6c-8a7c-863a68e9ab3f": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>Hello world<\/p>",
+            "image": "shopify:\/\/shop_images\/knife-slices-a-zucchini-in-half.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f6f70f9f-b70c-4c6c-8a7c-863a68e9ab3f"
+      ],
+      "settings": {
+        "title": "Liquid Basics"
+      }
     }
   },
   "order": [
@@ -225,6 +243,7 @@
     "collage",
     "video",
     "multicolumn",
-    "165124036117654e58"
+    "165124036117654e58",
+    "16514110770b2d6917"
   ]
 }
