@@ -242,6 +242,30 @@
       "settings": {
         "title": "Hello my first section blocks"
       }
+    },
+    "16514178726c24c6c9": {
+      "type": "gallery",
+      "blocks": {
+        "cfab565d-38a8-48d1-a952-42be356c4b4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-table-with-a-scale-and-pour-over-coffee.jpg"
+          }
+        },
+        "918f2bac-64d4-4a66-9f4f-1c51ea3fb961": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/classic-neon-open-sign.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "cfab565d-38a8-48d1-a952-42be356c4b4e",
+        "918f2bac-64d4-4a66-9f4f-1c51ea3fb961"
+      ],
+      "settings": {
+        "title": "Gallery Section"
+      }
     }
   },
   "order": [
@@ -252,6 +276,7 @@
     "video",
     "multicolumn",
     "165124036117654e58",
-    "1651411083758ee9bf"
+    "1651411083758ee9bf",
+    "16514178726c24c6c9"
   ]
 }
