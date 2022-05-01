@@ -8,7 +8,7 @@
     <li class="multicolumn-list__item grid__item center">
     	<div class"multicolumn-card content-container">
       	  <div class="multicolumn-card__info">
-            <img src="{{ block.settings.image }}"  />
+            <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 200px;" />
            	<p>{{ block.settings.block-text }} </p>
           </div>
       	</div>
@@ -29,7 +29,7 @@
 	}],
 	"blocks": [{
 		"type": "text",
-		"name": "Cistoms Blocks",
+		"name": "Customs Blocks",
 		"settings":[
 	{
 		"type": "richtext",
