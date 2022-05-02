@@ -218,7 +218,7 @@
                   {{ product.title | escape }}
                 </h2>
               </a>
-              <h2> Hello </h2>
+              <h2>{{ product.tag }}  </h2>
             </div>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
