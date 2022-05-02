@@ -191,13 +191,21 @@
             "type": "image",
             "settings": {
               "color": "#f90000",
-              "product": "",
+              "product": "lamp",
               "image": "shopify:\/\/shop_images\/classic-neon-open-sign.jpg"
+            }
+          },
+          "d5ac3f82-4f2e-4958-b18a-81a1cc827a3c": {
+            "type": "text",
+            "settings": {
+              "title": "Hello",
+              "sub-title": "<p>Hello world!! :)<\/p>"
             }
           }
         },
         "block_order": [
-          "84b6501d-6301-4643-9d4f-96fc54f54d66"
+          "84b6501d-6301-4643-9d4f-96fc54f54d66",
+          "d5ac3f82-4f2e-4958-b18a-81a1cc827a3c"
         ],
         "settings": {
         }
