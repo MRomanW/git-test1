@@ -14,8 +14,46 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Content Blocks",
+    "blocks": [
+	{
+		"name": "Custom Image",
+		"type": "custom-image",
+		"settings": [{
+			"type": "color",
+			"id": "color",
+			"label": "Choose Color"
+		},
+		{
+			"type": "product",
+			"id" : "product",
+			"label": "Choose a Product"
+		},
+		{
+			"type": "image_picker",
+			"id": "image",
+			"label": "Choose an Image"
+		}
+			
+		]
+	},
+{
+		"name": "Custom Text",
+		"type": "custom-text",
+		"settings": [{
+			"type": "text",
+			"id": "title",
+			"label": "Choose Title"
+		},
+		{
+			"type": "richtext",
+			"id": "sub-title",
+			"label": "Choose an Sub-Title"
+		}
+			
+		]
+	}
+]
   }
 {% endschema %}
 
