@@ -1,5 +1,15 @@
 {% for block in section.blocks %}
 	
+	{% if block.typy == 'image' %}
+
+		{% include 'custom-image' %}
+
+	{% else if block.type == 'text' %}
+
+		{% include 'custom-text' %}
+	
+	{% endif %}
+
 {% endfor %}
 
 {% schema %}
