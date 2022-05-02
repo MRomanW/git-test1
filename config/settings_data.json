@@ -183,6 +183,24 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "content-blocks": {
+        "type": "content-blocks",
+        "blocks": {
+          "84b6501d-6301-4643-9d4f-96fc54f54d66": {
+            "type": "image",
+            "settings": {
+              "color": "#f90000",
+              "product": "",
+              "image": "shopify:\/\/shop_images\/classic-neon-open-sign.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "84b6501d-6301-4643-9d4f-96fc54f54d66"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
