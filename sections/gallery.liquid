@@ -1,0 +1,59 @@
+<div class="gallery__section-container"> 
+  <h3> {{ section.settings.title }} </h3>
+ 
+  <div class="gallery__inner-container">
+  	{% for block in section.blocks %}
+ 		<div class="gallery__image-container">
+  			<img src="{{ block.settings.image | img_url: 'master' }}"
+  		</div> 
+  	{% endfor %}
+  
+	</div>
+</div> 
+  
+<style>
+  	.gallery__section-container h3{
+      text-align: center;
+  
+	.gallery__inner-container{
+    	display: flex; 	
+    }
+  .gallery__inner-container img{
+  	width: 30%;
+  }
+</style>
+  	
+{% schema %}
+  {
+    "name": "Gaallery Images",
+    "settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Enter title",
+			"default": "Gallery Section"
+		}
+],
+	"blocks": [
+		{
+			"type": "image",
+			"name": "images",
+			"settings": [
+  				{
+					"type": "image_picker",
+					"id": "image",
+					"label": "Image",
+					"info": "800x800px revommended"
+  				}
+			]
+		}
+	],
+  "presets": [
+{
+		"name": "Gallery Images",
+		"category": "Images"
+}
+]
+  
+}
+{% endschema %}

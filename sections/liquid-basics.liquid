@@ -1,0 +1,55 @@
+<div class="rich-text rich-text--full-width">
+  <div class="multicolumn-card__info">
+    <h2> {{ section.settings.title }} </h2>
+  </div>
+  <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--3-col-desktop">
+  	
+    {% for block in section.blocks %}
+    <li class="multicolumn-list__item grid__item center">
+    	<div class"multicolumn-card content-container">
+      	  <div class="multicolumn-card__info">
+            <img src="{{ block.settings.image | img_url: 'master' }}" style="width: 200px;" />
+           	<p>{{ block.settings.block-text }} </p>
+          </div>
+      	</div>
+    </li>
+
+	{% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+  {
+    "name": "Liquid Basics Example",
+    "settings": [{
+		"type": "text",
+  		"id": "title",
+  		"label": "Title",
+ 		"default": "Liquid Basics"
+	}],
+	"blocks": [{
+		"type": "text",
+		"name": "Customs Blocks",
+		"settings":[
+	{
+		"type": "richtext",
+		"id": "block-text",
+		"label": "Block Text"
+	},
+	{
+		"type": "image_picker",
+		"id": "image",
+		"label": "Pick an image"
+	}
+]
+  		
+	}],
+	"presets": [
+{
+		"name": "Liquid Basics Example",
+		"category": "Images"
+}
+]
+}
+{% endschema %}
+

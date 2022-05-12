@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Hello my new theme",
             "heading_size": "h0"
           }
         },
@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -35,10 +35,11 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -80,17 +81,24 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -137,8 +145,8 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -192,11 +200,71 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "165124036117654e58": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h0",
+        "color_scheme": "accent-1",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "1651411083758ee9bf": {
+      "type": "liquid-basics",
+      "blocks": {
+        "a098aecb-c022-42f8-afa3-dcbd64531575": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>I happy<\/p>",
+            "image": "shopify:\/\/shop_images\/knife-slices-a-zucchini-in-half.jpg"
+          }
+        },
+        "256e0a7f-7995-48db-834c-c0573e0833b9": {
+          "type": "text",
+          "settings": {
+            "block-text": "<p>The best!<\/p>",
+            "image": "shopify:\/\/shop_images\/golden-autumn-leaves.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a098aecb-c022-42f8-afa3-dcbd64531575",
+        "256e0a7f-7995-48db-834c-c0573e0833b9"
+      ],
+      "settings": {
+        "title": "Hello my first section blocks"
+      }
+    },
+    "16514178726c24c6c9": {
+      "type": "gallery",
+      "blocks": {
+        "cfab565d-38a8-48d1-a952-42be356c4b4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-table-with-a-scale-and-pour-over-coffee.jpg"
+          }
+        },
+        "918f2bac-64d4-4a66-9f4f-1c51ea3fb961": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/classic-neon-open-sign.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "cfab565d-38a8-48d1-a952-42be356c4b4e",
+        "918f2bac-64d4-4a66-9f4f-1c51ea3fb961"
+      ],
+      "settings": {
+        "title": "Gallery Section"
       }
     }
   },
@@ -206,6 +274,9 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "165124036117654e58",
+    "1651411083758ee9bf",
+    "16514178726c24c6c9"
   ]
 }
