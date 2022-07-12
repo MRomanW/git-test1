@@ -183,12 +183,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "c78da896-d90d-4753-88b3-6f9efd6334d8": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "c78da896-d90d-4753-88b3-6f9efd6334d8"
       ],
       "settings": {
         "title": "",
@@ -266,6 +276,15 @@
       "settings": {
         "title": "Gallery Section"
       }
+    },
+    "165762405032034690": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-XH5AWY\"><\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -277,6 +296,7 @@
     "multicolumn",
     "165124036117654e58",
     "1651411083758ee9bf",
-    "16514178726c24c6c9"
+    "16514178726c24c6c9",
+    "165762405032034690"
   ]
 }
